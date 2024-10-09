@@ -16,12 +16,9 @@ body {
 }
 
 .bigDivider {
-    width: 100%;
-    height: 10px;
-    font-weight: bolder;
-    color: gold;
+   border-bottom: 10px solid gold;
 }
-
+   
 .specialTitle {
     font-size: 70px;
     font-weight: 990px;
