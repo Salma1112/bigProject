@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="java.js" derer></script>
 </head>
 
 <body>
@@ -288,16 +289,16 @@
 
                 <div class="firstRow">
 
-                    <input type="text" placeholder=" Your Name ">
-                    <input type="email" placeholder=" Your Email ">
+                    <input type="text" placeholder=" Your Name " id="userName">
+                    <input type="email" placeholder=" Your Email " id="userEmail">
                     
                 </div>
 
-                <input type="text" placeholder=" Subject ">
+                <input type="text" placeholder=" Subject " id="userSubject">
                     <br>
-                    <textarea name="" id="" rows="10" placeholder="Type Message Here"></textarea>
+                    <textarea name="" id="userMassege" rows="10" placeholder="Type Message Here"></textarea>
                     <br>
-                    <button> SEND </button>
+                    <button onclick="sendEmail()"> SEND </button>
                     
             </div>    
 
